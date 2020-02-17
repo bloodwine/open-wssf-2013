@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
-VisualStudioVersion = 12.0.31101.0
+VisualStudioVersion = 12.0.40629.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Code Analysis", "Code Analysis", "{D26FE5D3-9B5D-4668-900E-5C82E0D8A590}"
 EndProject
@@ -102,8 +102,6 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServiceFactory.Description.Tests", "ServiceFactory.Description\Unit Tests\ServiceFactory.Description.Tests.csproj", "{FD741C67-E91B-4A3E-B8CD-617109DDCF48}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServiceFactory.Validation.Tests", "ServiceFactory.Validation\Unit Tests\ServiceFactory.Validation.Tests.csproj", "{E2C93364-2C3D-41E5-B458-58EFA5969B7C}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FxCop.Rules.WcfSemantic.Debug", "FxCop.Rules.WcfSemantic\Debug\FxCop.Rules.WcfSemantic.Debug.csproj", "{EC97EFD3-D1B2-4361-BCD8-72A1E2330983}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Service Factory Package", "Service Factory Package\Source\Service Factory Package.csproj", "{139D5A83-7C2E-4DC5-A3C5-CE2F32704095}"
 EndProject
@@ -532,17 +530,6 @@ Global
 		{E2C93364-2C3D-41E5-B458-58EFA5969B7C}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
 		{E2C93364-2C3D-41E5-B458-58EFA5969B7C}.Release|Mixed Platforms.Build.0 = Release|Any CPU
 		{E2C93364-2C3D-41E5-B458-58EFA5969B7C}.Release|x86.ActiveCfg = Release|Any CPU
-		{EC97EFD3-D1B2-4361-BCD8-72A1E2330983}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{EC97EFD3-D1B2-4361-BCD8-72A1E2330983}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{EC97EFD3-D1B2-4361-BCD8-72A1E2330983}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
-		{EC97EFD3-D1B2-4361-BCD8-72A1E2330983}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
-		{EC97EFD3-D1B2-4361-BCD8-72A1E2330983}.Debug|x86.ActiveCfg = Debug|x86
-		{EC97EFD3-D1B2-4361-BCD8-72A1E2330983}.Debug|x86.Build.0 = Debug|x86
-		{EC97EFD3-D1B2-4361-BCD8-72A1E2330983}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{EC97EFD3-D1B2-4361-BCD8-72A1E2330983}.Release|Any CPU.Build.0 = Release|Any CPU
-		{EC97EFD3-D1B2-4361-BCD8-72A1E2330983}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
-		{EC97EFD3-D1B2-4361-BCD8-72A1E2330983}.Release|Mixed Platforms.Build.0 = Release|Any CPU
-		{EC97EFD3-D1B2-4361-BCD8-72A1E2330983}.Release|x86.ActiveCfg = Release|Any CPU
 		{139D5A83-7C2E-4DC5-A3C5-CE2F32704095}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{139D5A83-7C2E-4DC5-A3C5-CE2F32704095}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{139D5A83-7C2E-4DC5-A3C5-CE2F32704095}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
@@ -645,7 +632,6 @@ Global
 		{40D6F8CC-BD94-4FD2-8F8E-8C9936A5F466} = {591129A1-206C-46BE-8A7A-6465C636587E}
 		{FD741C67-E91B-4A3E-B8CD-617109DDCF48} = {591129A1-206C-46BE-8A7A-6465C636587E}
 		{E2C93364-2C3D-41E5-B458-58EFA5969B7C} = {591129A1-206C-46BE-8A7A-6465C636587E}
-		{EC97EFD3-D1B2-4361-BCD8-72A1E2330983} = {D26FE5D3-9B5D-4668-900E-5C82E0D8A590}
 		{139D5A83-7C2E-4DC5-A3C5-CE2F32704095} = {39C62ACB-6145-48E9-BB71-4998C08B33E0}
 		{69A9E97B-D3B7-45AE-A53F-257557235357} = {39C62ACB-6145-48E9-BB71-4998C08B33E0}
 		{CB2EEA8C-EBFE-4FAE-9739-D0D4679E2D31} = {D26FE5D3-9B5D-4668-900E-5C82E0D8A590}
